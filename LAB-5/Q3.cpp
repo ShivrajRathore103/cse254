@@ -22,6 +22,8 @@ bool is_bi(vector<vector<bool>> v){
 			}
 		}
 	}
+	
+	
 	return 1;
 
 }

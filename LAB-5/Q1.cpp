@@ -16,6 +16,8 @@ int DFS(vector<vector<int>>&v,int i,int j){
 
 int main(){
     ifstream inputFile("input.txt");
+	
+	
     ofstream outputFile("output.txt");
 
     if (!inputFile.is_open()) {

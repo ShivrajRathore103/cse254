@@ -19,6 +19,8 @@ int BFS(int move[],int n)
         p = q.front();
         int k = p.first; 
         if (k==n-1){break;}
+		
+		
 
         q.pop();
         for (int j =k+1;j<=(k+6) && j<n;j++) {
